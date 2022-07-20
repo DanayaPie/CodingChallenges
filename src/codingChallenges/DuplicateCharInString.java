@@ -1,4 +1,4 @@
-package syntax;
+package codingChallenges;
 
 import java.util.HashMap;
 import java.util.Locale;

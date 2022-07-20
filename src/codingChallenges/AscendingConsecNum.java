@@ -1,4 +1,4 @@
-package Challenges;
+package codingChallenges;
 
 public class AscendingConsecNum {
 

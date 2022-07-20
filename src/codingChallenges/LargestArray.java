@@ -1,4 +1,4 @@
-package syntax;
+package codingChallenges;
 
 public class LargestArray {
     public static void main(String[] args) {
