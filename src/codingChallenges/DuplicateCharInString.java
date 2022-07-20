@@ -1,6 +1,7 @@
 package syntax;
 
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
 
 public class DuplicateCharInString {
@@ -13,15 +14,15 @@ public class DuplicateCharInString {
 
     public static void duplicateChar(String s) {
 
-        String s1 = s.toLowerCase();
+        s = s.toLowerCase();
 
         HashMap<Character, Integer> charMap = new HashMap();
 
-        for (int i = 0; i < s1.length(); i++) {
-            if (charMap.containsKey(s1.charAt(i))) {
-                charMap.put(s1.charAt(i), charMap.get(s1.charAt(i)) + 1);
+        for (int i = 0; i < s.length(); i++) {
+            if (charMap.containsKey(s.charAt(i))) {
+                charMap.put(s.charAt(i), charMap.get(s.charAt(i)) + 1);
             } else {
-                charMap.put(s1.charAt(i), 1);
+                charMap.put(s.charAt(i), 1);
             }
         }
 
