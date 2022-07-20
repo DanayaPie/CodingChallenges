@@ -6,7 +6,7 @@ import java.util.Map;
 public class DuplicateCharInString {
 
     public static void main(String[] args) {
-        String s = "InfoSys";
+        String s = "ButterflySwords";
 
         duplicateChar(s);
     }
@@ -28,6 +28,5 @@ public class DuplicateCharInString {
         for (Map.Entry<Character, Integer> charEntry : charMap.entrySet()) {
             System.out.println(charEntry.getKey() + ": " + charEntry.getValue());
         }
-
     }
 }

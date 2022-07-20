@@ -2,7 +2,7 @@ package syntax;
 
 public class LargestArray {
     public static void main(String[] args) {
-        int[] arr = {99, 654, 2548, 111111};
+        int[] arr = {154, 654, 2548, 1};
 
         System.out.println(largestInt(arr));
     }
