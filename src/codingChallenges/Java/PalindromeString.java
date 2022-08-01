@@ -1,4 +1,4 @@
-package codingChallenges;
+package codingChallenges.Java;
 
 public class PalindromeString {
 

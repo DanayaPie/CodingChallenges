@@ -1,4 +1,4 @@
-package codingChallenges;
+package codingChallenges.Java;
 
 public class LengthOfLongestWord {
     public static void main(String[] args) {
