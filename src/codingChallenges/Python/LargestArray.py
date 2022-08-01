@@ -5,7 +5,7 @@ class Solution(object):
     def __init__(self, arr):
         self.arr = arr
 
-    def largestInt(self, arr):
+    def largest_int(self, arr):
 
         largest = arr[0]
 
