@@ -3,7 +3,7 @@ package codingChallenges.Java;
 public class ReverseString {
 
     public static void main(String[] args) {
-        String s = "InfoSys";
+        String s = "Danaya";
 
         System.out.println(reverseString(s));
     }
